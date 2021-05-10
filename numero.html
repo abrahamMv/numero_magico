@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos/numero.css">
+    <title>numero magico</title>
+  </head>
+    <body>
+        <div class="contenedor">
+             <h1>Bienvenido al juego del numero magico</h1>
+             <p>¿sabe cual es el numero magico?</p>
+             <p>Ingrese su nombre</p>
+             <input class="tex" id="name" type="text">
+             <p>Ingrese un numero</p>
+             <input class="tex" id="intento" type="text">
+             <input class="btn" id="bt" type="submit" onclick="numero()">
+             <input class="text" type="text" id="intentos" readonly>
+             <input class="tex i2" type="text" id="pista" readonly>
+             <button class="btn" onclick="reiniciar()">Reiniciar</button>
+             
+        </div>
+
+        <div class="clock" id="clock"></div>
+
+        <script src="script/numero.js"></script>
+    </body>
+
+
+</html>
